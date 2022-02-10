@@ -48,7 +48,7 @@ void idontknowcpp(char *bytes, int numBytes)
     lastAverage = averageSample;
 
     char data[] = {
-        0x10,
+        0x40,
         (char)(baseColor[0] + (boostColor[0] - baseColor[0]) * averageSample),
         (char)(baseColor[1] + (boostColor[1] - baseColor[1]) * averageSample),
         (char)(baseColor[2] + (boostColor[2] - baseColor[2]) * averageSample)};
